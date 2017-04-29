@@ -816,7 +816,7 @@ plist_t tss_request_send(plist_t tss_request, const char* server_url_string) {
 	char* request = NULL;
 	int status_code = -1;
 	int retry = 0;
-	int max_retries = 15;
+	int max_retries = 6;
 	unsigned int size = 0;
 	char curl_error_message[CURL_ERROR_SIZE];
 
